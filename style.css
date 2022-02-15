@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.icone{
+    display: none;
+}
+
+/* div para surgir e desaparecer */
+/* div para surgir e desaparecer */
+
+.ocultar{
+    display: none;
+}
+
+.meio{
+    width: 100%;
+    background: #0088a9;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meio__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meio__nav{
+    background-color: #0088a9;
+}
+
+.meio__nav > a{
+    color: rgb(46, 165, 42);
+    padding: 25px 0px;
+    font-size: 2rem;
+    background-color: #24252af3;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* div para surgir e desaparecer */
+/* div para surgir e desaparecer */
+
+@media screen and (max-width: 750px){
+    .icone{
+        display: inline-block;
+        color: #edf0f1;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    /* esconder a lista com os links de navegação */
+    /* esconder a lista com os links de navegação */
+    /* esconder a lista com os links de navegação */
+    .nav__links{
+        display: none;
+    }
+}
