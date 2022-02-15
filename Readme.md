@@ -11,6 +11,8 @@ Estou vendo alguns vídeos no Youtube em relação à navbar, quero aprender e f
 
 Sei que não está muito bonito, mas o meu PRINCIPAL objetivo neste pequeno projeto era fazer essa integração HTML + CSS + JS para uma navbar! 
 
+Ps: não sei porque mas o .svg não carregou no github pages.
+
 E pensar que meses atrás eu copiava isso de um bootstrap 5 porque imaginava "caraca, deve ser muito difícil fazer isso na unha...".
 
 - Para quem tem pensamento forte, o impossível é só questão de opinião.
@@ -24,5 +26,7 @@ I'm searching for some videos on Youtube about navbar, and this one I've found i
 I wanna create every navbar I want, so this will not be the only one navbar in my github, I need to practice A LOT!
 
 My most important goal in this project was this HTML + CSS + JS integration, so I'm really happy with the results =D.
+
+Ps: idk why but the .svg image didn't load at github pages.
 
 So, that's all for this Readme! See ya!
